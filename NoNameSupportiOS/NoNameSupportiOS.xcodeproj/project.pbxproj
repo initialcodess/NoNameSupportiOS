@@ -10,8 +10,8 @@
 		1501A4D329AC189E00641C9C /* NoNameSupportiOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */; };
 		1501A4D929AC189E00641C9C /* NoNameSupportiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1501A4CE29AC189E00641C9C /* NoNameSupportiOS.framework */; };
 		1501A4DF29AC189E00641C9C /* NoNameSupportiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1501A4D129AC189E00641C9C /* NoNameSupportiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1501A4F529AC18E200641C9C /* NoNameSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1501A4EE29AC18BC00641C9C /* NoNameSupport.framework */; };
-		1501A4F629AC18E200641C9C /* NoNameSupport.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1501A4EE29AC18BC00641C9C /* NoNameSupport.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15EA81E929AD60BB0096660F /* NoNameSupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */; };
+		15EA81EA29AD60BB0096660F /* NoNameSupport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -22,20 +22,6 @@
 			remoteGlobalIDString = 1501A4CD29AC189E00641C9C;
 			remoteInfo = NoNameSupportiOS;
 		};
-		1501A4ED29AC18BC00641C9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1501A4E829AC18BC00641C9C /* NoNameSupport.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 15B0AA2F29AC021F00214E91;
-			remoteInfo = NoNameSupport;
-		};
-		1501A4EF29AC18BC00641C9C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1501A4E829AC18BC00641C9C /* NoNameSupport.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 15B0AA3929AC021F00214E91;
-			remoteInfo = NoNameSupportTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,7 +31,17 @@
 			dstPath = "";
 			dstSubfolderSpec = 11;
 			files = (
-				1501A4F629AC18E200641C9C /* NoNameSupport.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15EA81EB29AD60BB0096660F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				15EA81EA29AD60BB0096660F /* NoNameSupport.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -57,7 +53,7 @@
 		1501A4D129AC189E00641C9C /* NoNameSupportiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoNameSupportiOS.h; sourceTree = "<group>"; };
 		1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NoNameSupportiOS.docc; sourceTree = "<group>"; };
 		1501A4D829AC189E00641C9C /* NoNameSupportiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoNameSupportiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1501A4E829AC18BC00641C9C /* NoNameSupport.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = NoNameSupport.xcodeproj; path = ../../NoNameSupport/NoNameSupport/NoNameSupport.xcodeproj; sourceTree = "<group>"; };
+		15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoNameSupport.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1501A4F529AC18E200641C9C /* NoNameSupport.framework in Frameworks */,
+				15EA81E929AD60BB0096660F /* NoNameSupport.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +79,7 @@
 		1501A4C429AC189E00641C9C = {
 			isa = PBXGroup;
 			children = (
-				1501A4E829AC18BC00641C9C /* NoNameSupport.xcodeproj */,
+				15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */,
 				1501A4D029AC189E00641C9C /* NoNameSupportiOS */,
 				1501A4CF29AC189E00641C9C /* Products */,
 				1501A4F229AC18E200641C9C /* Frameworks */,
@@ -106,15 +102,6 @@
 				1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */,
 			);
 			path = NoNameSupportiOS;
-			sourceTree = "<group>";
-		};
-		1501A4E929AC18BC00641C9C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1501A4EE29AC18BC00641C9C /* NoNameSupport.framework */,
-				1501A4F029AC18BC00641C9C /* NoNameSupportTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1501A4F229AC18E200641C9C /* Frameworks */ = {
@@ -147,6 +134,7 @@
 				1501A4CB29AC189E00641C9C /* Frameworks */,
 				1501A4CC29AC189E00641C9C /* Resources */,
 				1501A4F729AC18E200641C9C /* Embed Frameworks */,
+				15EA81EB29AD60BB0096660F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -204,12 +192,6 @@
 			mainGroup = 1501A4C429AC189E00641C9C;
 			productRefGroup = 1501A4CF29AC189E00641C9C /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 1501A4E929AC18BC00641C9C /* Products */;
-					ProjectRef = 1501A4E829AC18BC00641C9C /* NoNameSupport.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				1501A4CD29AC189E00641C9C /* NoNameSupportiOS */,
@@ -217,23 +199,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		1501A4EE29AC18BC00641C9C /* NoNameSupport.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = NoNameSupport.framework;
-			remoteRef = 1501A4ED29AC18BC00641C9C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		1501A4F029AC18BC00641C9C /* NoNameSupportTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = NoNameSupportTests.xctest;
-			remoteRef = 1501A4EF29AC18BC00641C9C /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1501A4CC29AC189E00641C9C /* Resources */ = {

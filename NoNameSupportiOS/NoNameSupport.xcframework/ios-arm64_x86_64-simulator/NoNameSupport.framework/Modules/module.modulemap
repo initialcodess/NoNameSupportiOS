@@ -1,0 +1,11 @@
+framework module NoNameSupport {
+  umbrella header "NoNameSupport.h"
+
+  export *
+  module * { export * }
+}
+
+module NoNameSupport.Swift {
+  header "NoNameSupport-Swift.h"
+  requires objc
+}
