@@ -7,21 +7,7 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
-public enum LogLevel : Swift.String {
-  case DEBUG
-  case ERROR
-  case INFO
-  case VERBOSE
-  public init?(rawValue: Swift.String)
-  public typealias RawValue = Swift.String
-  public var rawValue: Swift.String {
-    get
-  }
-}
 @_hasMissingDesignatedInitializers public class Logger {
   public static func logInfo(_ message: Swift.String)
   @objc deinit
 }
-extension NoNameSupport.LogLevel : Swift.Equatable {}
-extension NoNameSupport.LogLevel : Swift.Hashable {}
-extension NoNameSupport.LogLevel : Swift.RawRepresentable {}

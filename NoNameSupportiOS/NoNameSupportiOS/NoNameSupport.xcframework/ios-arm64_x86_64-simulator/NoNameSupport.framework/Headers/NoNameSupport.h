@@ -7,7 +7,6 @@
 
 #import <Foundation/Foundation.h>
 
-
 //! Project version number for NoNameSupport.
 FOUNDATION_EXPORT double NoNameSupportVersionNumber;
 

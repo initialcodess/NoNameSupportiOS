@@ -1,0 +1,131 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoNameSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "NoNameSupport",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Logger",
+        "printedName": "Logger",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "logInfo",
+            "printedName": "logInfo(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13NoNameSupport6LoggerC7logInfoyySSFZ",
+            "mangledName": "$s13NoNameSupport6LoggerC7logInfoyySSFZ",
+            "moduleName": "NoNameSupport",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13NoNameSupport6LoggerC",
+        "mangledName": "$s13NoNameSupport6LoggerC",
+        "moduleName": "NoNameSupport",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 7,
+      "value": "\"D || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 7,
+      "value": "\"E || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 7,
+      "value": "\"I || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 7,
+      "value": "\"V || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 146,
+      "length": 7,
+      "value": "\"D || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 7,
+      "value": "\"E || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 195,
+      "length": 7,
+      "value": "\"I || \""
+    },
+    {
+      "filePath": "\/Users\/bsoykal\/Projeler\/NoNameSupport\/NoNameSupport\/NoNameSupport\/Enums.swift",
+      "kind": "StringLiteral",
+      "offset": 222,
+      "length": 7,
+      "value": "\"V || \""
+    }
+  ]
+}

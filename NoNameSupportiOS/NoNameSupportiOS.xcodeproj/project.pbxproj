@@ -10,8 +10,8 @@
 		1501A4D329AC189E00641C9C /* NoNameSupportiOS.docc in Sources */ = {isa = PBXBuildFile; fileRef = 1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */; };
 		1501A4D929AC189E00641C9C /* NoNameSupportiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1501A4CE29AC189E00641C9C /* NoNameSupportiOS.framework */; };
 		1501A4DF29AC189E00641C9C /* NoNameSupportiOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 1501A4D129AC189E00641C9C /* NoNameSupportiOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15EA81E929AD60BB0096660F /* NoNameSupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */; };
-		15EA81EA29AD60BB0096660F /* NoNameSupport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		157C369C29AD6F340078B2FF /* NoNameSupport.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157C369A29AD6F1D0078B2FF /* NoNameSupport.xcframework */; };
+		157C369D29AD6F340078B2FF /* NoNameSupport.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 157C369A29AD6F1D0078B2FF /* NoNameSupport.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				15EA81EA29AD60BB0096660F /* NoNameSupport.xcframework in Embed Frameworks */,
+				157C369D29AD6F340078B2FF /* NoNameSupport.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -53,7 +53,7 @@
 		1501A4D129AC189E00641C9C /* NoNameSupportiOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoNameSupportiOS.h; sourceTree = "<group>"; };
 		1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = NoNameSupportiOS.docc; sourceTree = "<group>"; };
 		1501A4D829AC189E00641C9C /* NoNameSupportiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoNameSupportiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoNameSupport.xcframework; sourceTree = "<group>"; };
+		157C369A29AD6F1D0078B2FF /* NoNameSupport.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = NoNameSupport.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				15EA81E929AD60BB0096660F /* NoNameSupport.xcframework in Frameworks */,
+				157C369C29AD6F340078B2FF /* NoNameSupport.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,7 +79,6 @@
 		1501A4C429AC189E00641C9C = {
 			isa = PBXGroup;
 			children = (
-				15837A0C29AD604500A371A7 /* NoNameSupport.xcframework */,
 				1501A4D029AC189E00641C9C /* NoNameSupportiOS */,
 				1501A4CF29AC189E00641C9C /* Products */,
 				1501A4F229AC18E200641C9C /* Frameworks */,
@@ -98,6 +97,7 @@
 		1501A4D029AC189E00641C9C /* NoNameSupportiOS */ = {
 			isa = PBXGroup;
 			children = (
+				157C369A29AD6F1D0078B2FF /* NoNameSupport.xcframework */,
 				1501A4D129AC189E00641C9C /* NoNameSupportiOS.h */,
 				1501A4D229AC189E00641C9C /* NoNameSupportiOS.docc */,
 			);
