@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "NoNameSupport"
-  spec.version      = "0.0.4"
+  spec.version      = "0.0.5"
   spec.summary      = "NoNameSupport will bring Instant Support Power to your ecosystem. "
 
   # This description is used to generate tags and improve search results.
@@ -90,7 +90,7 @@ spec.license = { :type => "MIT", :file => "LICENSE" }
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.ios.vendored_frameworks = 'NoNameSupportiOS/NoNameSupportiOS/NoNameSupport.xcframework' 
+  spec.ios.vendored_frameworks = 'NoNameSupportiOS/NoNameSupportiOS/NoNameSupport.xcframework'
   #spec.source_files  = "NoNameSupportiOS/**/*"
   #spec.exclude_files = "Classes/Exclude"
 
